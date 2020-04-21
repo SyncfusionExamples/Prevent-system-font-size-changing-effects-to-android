@@ -44,6 +44,8 @@ public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompa
 
 Entry with font size of 20
 
+!()[FontSample/Screenshots/Changes-in-font-size.png)
+
 Change the system font size
 
 Entry looks with huge font size
