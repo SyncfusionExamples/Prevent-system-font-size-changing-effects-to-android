@@ -44,13 +44,20 @@ public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompa
 
 Entry with font size of 20
 
-!()[FontSample/Screenshots/Changes-in-font-size.png)
+![Entry with font size of 20
+](https://github.com/SyncfusionExamples/Prevent-system-font-size-changing-effects-to-android/blob/master/FontSample/Screenshots/Entry_FontSize_20.png)
 
 Change the system font size
 
+![Change the system font size
+](https://github.com/SyncfusionExamples/Prevent-system-font-size-changing-effects-to-android/blob/master/FontSample/Screenshots/System-Font-Size-Changes.png)
+
 Entry looks with huge font size
+
+![Entry looks with huge font size](https://github.com/SyncfusionExamples/Prevent-system-font-size-changing-effects-to-android/blob/master/FontSample/Screenshots/Changes-in-font-size.png)
+
 
 *After applying the changes, it keeps in same*
 
-
+![Desired output](https://github.com/SyncfusionExamples/Prevent-system-font-size-changing-effects-to-android/blob/master/FontSample/Screenshots/Desired_Output.png)
 
