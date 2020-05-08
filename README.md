@@ -43,7 +43,7 @@ public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompa
 SfAutoComplete with font size of 20
 
 ![Entry with font size of 20
-](https://github.com/SyncfusionExamples/Prevent-system-font-size-changing-effects-to-android/blob/master/FontSample/Screenshots/AutoComplete_FontSize_20)
+](https://github.com/SyncfusionExamples/Prevent-system-font-size-changing-effects-to-android/blob/master/FontSample/Screenshots/AutoComplete_FontSize_20.png)
 
 Change the system font size
 
