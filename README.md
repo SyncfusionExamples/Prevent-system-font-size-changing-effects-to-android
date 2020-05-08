@@ -1,21 +1,19 @@
 # Prevent-system-font-size-changing-effects-to-android
 
-This article explains how to restrict the system font size changes effects to Entry control in Xamarin.Forms Android platform as per in below code snippet
+This article explains how to restrict the system font size changes effects to SfAutoComplete control in Xamarin.Forms Android platform as per in below code snippet
 
 **[XAML]**
 
-Let’s have an Entry control with FontSize of 20 
-```
-<StackLayout>
-        <Entry Text="Font Size" FontSize="20"
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-</StackLayout> 
-```
+Let’s have an SfAutoComplete control with FontSize of 20.
+``` 
+<StackLayout Margin="0,50,10,10">
+        <autocomplete:SfAutoComplete HeightRequest="60" Text="Font-20" TextSize="20"/>
+ </StackLayout>
+ ```
 
 **[C#]**
 
-In the Xamarin.Forms Android MainActivity.cs, add the below code to restrict the font size effect on application.
+In the Xamarin.Forms Android MainActivity.cs, override the Resources and set the configuration to default to restrict the font size effect on application. Resources.UpdateConfiguration() has been deprecated in API 25. So CreateConfigurationContext is used for APl level greater than 25.
 
 ```
 public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity

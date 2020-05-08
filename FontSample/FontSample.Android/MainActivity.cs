@@ -13,24 +13,24 @@ namespace FontSample.Droid
     [Activity(Label = "FontSample", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        //public override Resources Resources
-        //{
-        //    get
-        //    {
-        //        Resources resource = base.Resources;
-        //        Configuration configuration = new Configuration();
-        //        configuration.SetToDefaults();
-        //        if (Build.VERSION.SdkInt >= Build.VERSION_CODES.NMr1)
-        //        {
-        //            return CreateConfigurationContext(configuration).Resources;
-        //        }
-        //        else
-        //        {
-        //            resource.UpdateConfiguration(configuration, resource.DisplayMetrics);
-        //            return resource;
-        //        }
-        //    }
-        //}
+        public override Resources Resources
+        {
+            get
+            {
+                Resources resource = base.Resources;
+                Configuration configuration = new Configuration();
+                configuration.SetToDefaults();
+                if (Build.VERSION.SdkInt >= Build.VERSION_CODES.NMr1)
+                {
+                    return CreateConfigurationContext(configuration).Resources;
+                }
+                else
+                {
+                    resource.UpdateConfiguration(configuration, resource.DisplayMetrics);
+                    return resource;
+                }
+            }
+        }
         protected override void OnCreate(Bundle savedInstanceState)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
