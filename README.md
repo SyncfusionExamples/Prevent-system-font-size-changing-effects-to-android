@@ -1,6 +1,6 @@
 # Prevent-system-font-size-changing-effects-to-android
 
-This article explains how to restrict the system font size changes effects to SfAutoComplete control in Xamarin.Forms Android platform ((https://www.syncfusion.com/kb/11506/?utm_medium=listing&utm_source=github-examples)[Refer KB for more]) as per in below code snippet
+This article explains how to restrict the system font size changes effects to SfAutoComplete control in Xamarin.Forms Android platform [Refer KB for more](https://www.syncfusion.com/kb/11506/?utm_medium=listing&utm_source=github-examples) as per in below code snippet
 
 **[XAML]**
 
